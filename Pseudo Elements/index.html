@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+         p::after{
+            content: " sonraki paragraf";
+            background-color: aqua;
+        }
+        p::before{
+            content: "evvelki paragraf  ";
+            background-color: aqua;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 36px;
+        }
+
+        p::first-line{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nobis.</p>
+</body>
+</html>

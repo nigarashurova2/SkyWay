@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section {
+    text-align: center;
+    width: 100%;
+    padding: 50px 30px ;
+}
+.section .boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.section .boxs .box .first{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .section .boxs{
+      display: flex;
+      flex-direction: column;
+       background-color: black;
+   }
+   .box{
+       display: flex;
+   }
+   
+}
